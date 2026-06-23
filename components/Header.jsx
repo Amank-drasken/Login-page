@@ -42,7 +42,7 @@ export default function Header() {
     >
       <div className="container" style={{ height: "100%", display: "flex", alignItems: "center", justifyContent: "space-between" }}>
         <Link href="/" style={{ display: "flex", alignItems: "center", gap: 10 }}>
-          <div style={{ width: 34, height: 34, borderRadius: 8, background: "linear-gradient(135deg,#1B2B6B,#1E8C45)", display: "flex", alignItems: "center", justifyContent: "center", color: "#fff", fontWeight: 700, fontSize: 14 }}>GM</div>
+          <img src="/img/logo.jpeg" alt="Gatimaan Payments" style={{ height: 34, width: "auto", borderRadius: 6 }} />
           <span className="brand-text" style={{ fontSize: 15, fontWeight: 500 }}>
             <span className="gati">Gati</span><span className="maan">Maan</span><span className="payments"> Payments</span>
           </span>

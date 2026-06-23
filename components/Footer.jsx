@@ -8,7 +8,7 @@ export default function Footer() {
         <div style={{ display: "grid", gridTemplateColumns: "1.4fr 1fr 1fr 1fr", gap: 40 }} className="footer-grid">
           <div>
             <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 12 }}>
-              <div style={{ width: 36, height: 36, borderRadius: 8, background: "linear-gradient(135deg,#1B2B6B,#1E8C45)", display: "flex", alignItems: "center", justifyContent: "center", fontWeight: 700, fontSize: 14 }}>GM</div>
+              <img src="/img/logo.jpeg" alt="Gatimaan Payments" style={{ height: 36, width: "auto", borderRadius: 6 }} />
               <span style={{ fontSize: 15, fontWeight: 500 }}>
                 <span style={{ color: "#fff" }}>Gati</span>
                 <span style={{ color: "#4ADE80" }}>Maan</span>
